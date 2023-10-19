@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lengdemåler</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="p">Lengdemåler</h1>
+    </header>
+    <main>
+        <form>
+            <label for="converter">Lengdekalkulator</label>
+            <input type="number" name="converter" id="user_input_ID" />
+
+            <label for="from_unit">Fra</label>
+            <select name="from_unit" id="from_unit_ID">
+                <option value="mm">MM</option>
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+                <option value="km">KM</option>
+                <option value="mil">Mil</option>
+            </select>
+
+            <label for="to_unit">Til</label>
+            <select name="to_unit" id="to_unit_ID">
+                <option value="mm">MM</option>
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+                <option value="km">KM</option>
+                <option value="mil">Mil</option>
+            </select>
+        </form>
+        <button onclick="unit_converter()">Konverter</button>
+
+        <p id="display_value_ID"></p>
+    </main>
+    <footer>
+        <p>Laget av NØD</p>
+    </footer>
+</body>
+</html>
