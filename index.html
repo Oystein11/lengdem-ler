@@ -12,15 +12,15 @@
         <h1 class="p">Lengde- og volummåler</h1>
     </header>
     <main>
-        <section>
+        <section class="length">
             <p class="p">Her kan du konvertere diverse lengder til andre lengder, fra millimeter til mil.</p>
         </section>
-        <section>
+        <section class="length">
             <form>
-                <label class="p">Lengdekalkulator</label>
-                <input type="number" name="converter" id="user_length_input_ID" />
+                <label class="p" for="user_length_input_ID">Lengdekalkulator</label>
+                <input type="number" name="length_converter" id="user_length_input_ID" />
 
-                <label class="p">Fra</label>
+                <label class="p" for="from_length_unit_ID">Fra</label>
                 <select name="from_length_unit" id="from_length_unit_ID">
                     <option value="mm">MM</option>
                     <option value="cm">CM</option>
@@ -29,7 +29,7 @@
                     <option value="mil">Mil</option>
                 </select>
 
-                <label class="p">Til</label>
+                <label class="p" for="to_length_unit_ID">Til</label>
                 <select name="to_length_unit" id="to_length_unit_ID">
                     <option value="mm">MM</option>
                     <option value="cm">CM</option>
@@ -39,28 +39,28 @@
                 </select>
             </form>
         </section>
-        <section>
+        <section class="length">
             <button class="button" onclick="length_converter()">Konverter</button>
         </section>
-        <section>
+        <section class="length">
             <p class= "p" id="display_length_value_ID"></p>
         </section>
-        <section>
+        <section class="volume">
             <p class="p">Her kan du konvertere diverse volumenheter til andre volumer, fra milliliter til liter.</p>
         </section>
-        <section>
+        <section class="volume">
             <form>
-                <label class="p">Volumkalkulator</label>
+                <label class="p" for="user_volume_input_ID">Volumkalkulator</label>
                 <input type="number" name="converter" id="user_volume_input_ID" />
 
-                <label class="p">Fra</label>
+                <label class="p" for="user_volume_input_ID">Fra</label>
                 <select name="from_volume_unit" id="from_volume_unit_ID">
                     <option value="ml">ML</option>
                     <option value="cl">CL</option>
                     <option value="l">L</option>
                 </select>
 
-                <label class="p">Til</label>
+                <label class="p" for="to_volume_unit_ID">Til</label>
                 <select name="to_volume_unit" id="to_volume_unit_ID">
                     <option value="ml">ML</option>
                     <option value="cl">CL</option>
@@ -68,10 +68,10 @@
                 </select>
             </form>
         </section>
-        <section>
+        <section class="volume">
             <button class="button" onclick="volume_converter()">Konverter</button>
         </section>
-        <section>
+        <section class="volume">
             <p class="p" id="display_volume_value_ID"></p>
         </section>
     </main>

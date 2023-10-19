@@ -17,7 +17,17 @@ main {
     flex-direction: column;
     gap: 1em;
     background-color: #0e4749;
-    height: 25em;
+    height: 30em;
+}
+
+.length {
+    display: flex;
+    gap: 2em;
+}
+
+.volume {
+    display: flex;
+    gap: 2em;
 }
 
 .p {
