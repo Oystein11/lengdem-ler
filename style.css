@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    background-color: #122c34;
+    height: 10em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #0e4749;
+    height: 25em;
+}
+
+.p {
+    color: white;
+}
