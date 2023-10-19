@@ -1,0 +1,1 @@
+Dette er en enkel kalkulator som måler lengder og volumer.
