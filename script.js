@@ -90,7 +90,7 @@ function length_converter() {
 
 	//
 	display_length_value.textContent = length_result.toFixed(3);
-};
+}
 
 function volume_converter() {
 
@@ -143,4 +143,4 @@ function volume_converter() {
 
 	//
 	display_volume_value.textContent = volume_result.toFixed(3);
-};
+}
